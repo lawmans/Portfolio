@@ -5,8 +5,8 @@
 }
 
 img{
-    border-radius: 350px;
-    width: 20%;
+    border-radius: 20px;
+    width: 120px;
    
 }
 
@@ -16,7 +16,7 @@ h1{
     font-size: 3rem;
 }
 body{
-    background-color:ivory
+    background-color:rgba(176, 193, 207,0.7);
 }
 
 .education{
@@ -78,4 +78,7 @@ body{
 .hobby{
     margin-top: 1rem;
     
+}
+h1{
+    color:rgba(138, 79, 40, 0.979);
 }
