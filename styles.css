@@ -16,6 +16,7 @@ h1{
     font-size: 3rem;
 }
 body{
+    text-align: justify;
     background-color:rgba(176, 193, 207,0.7);
 }
 
@@ -81,4 +82,7 @@ body{
 }
 h1{
     color:rgba(138, 79, 40, 0.979);
+}
+h3{
+    color:
 }
