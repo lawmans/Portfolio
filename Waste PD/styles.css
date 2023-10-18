@@ -1,0 +1,31 @@
+
+:root{
+    --Dark--: #222831;
+    --Green--:#016A70;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.logo{
+    width: 9.375rem;
+    height: 2.80863rem;
+    flex-shrink: 0;
+    padding: 6.04rem 4.31rem;
+}
+h1{
+    color: var(--Dark--);
+/* H1 - semibold */
+    font-family: Poppins;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    padding: 12.44px;
+    
+    
+}
