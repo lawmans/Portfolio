@@ -2,11 +2,13 @@
 :root{
     --Dark--: #222831;
     --Green--:#016A70;
+    --Light--: #B7B7B7;
 }
 
 body{
     padding: 0;
     margin: 0;
+    
 }
 
 
@@ -14,18 +16,38 @@ body{
     width: 9.375rem;
     height: 2.80863rem;
     flex-shrink: 0;
-    padding: 6.04rem 4.31rem;
+    margin-top:6.043rem;
+    margin-bottom: 6.093rem;
+    margin-left: 4.312rem;
+    margin-right: 94.312rem;
 }
 h1{
     color: var(--Dark--);
 /* H1 - semibold */
-    font-family: Poppins;
+    font-family:Poppins;
     font-size: 3rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    text-align: center;
-    padding: 12.44px;
-    
-    
+    margin-top: 12.44rem;
+    margin-right: 30rem;
+    margin-left: 69.12rem;
+    margin-bottom: 52.875rem;
+}
+.registration{
+    width: 52.125rem;
+    height: 38.625rem;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+}
+.email_input{
+    width: 45.0625rem;
+    height: 3.25rem;
+    flex-shrink: 0;
+}
+.password_input{
+    width: 45.0625rem;
+    height: 3.25rem;
+    flex-shrink: 0;
 }
