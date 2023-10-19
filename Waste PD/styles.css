@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 
 :root{
     --Dark--: #222831;
@@ -7,34 +7,38 @@
     --Light--:#B7B7B7;
 }
 
-body{
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'poppins';
-    
-}
 
+}
+body{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; */
+}
 
 .logo{
     width: 9.375rem;
     height: 2.80863rem;
     flex-shrink: 0;
-    margin-top:6.043rem;
-    margin-bottom: 6.093rem;
-    margin-left: 4.312rem;
-    margin-right: 94.312rem;
+    padding: 6.04rem 94.3rem 61rem 4.31rem;
 }
-h1{
+.logintext{
+    padding: 12.44rem 30rem 52.87rem 69.12rem;
     color: var(--Dark, #222831);
-/* H1 - semibold */
     font-family:Poppins;
     font-size: 3rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-   
+    width: 8.875rem;
+    height: 4.5rem;
 }
+
 
 .email_lab{
     color: var(--Dark, #222831);
@@ -71,6 +75,26 @@ h1{
     border-radius: 0.5rem;
     border: 2px solid var(--Light, #B7B7B7);
     background: var(--White, #FFF);
-    
-    
+
+}
+.wrapper{
+    width: 52.125rem;
+    height: 38.625rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: var(--White, #FFF);
+    box-shadow: 0px 0px 33px 0px rgba(0, 0, 0, 0.25);
+}
+.btn{
+    width: 15.6875rem;
+    height: 3.25rem;
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+    background: var(--Green, #016A70);
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
