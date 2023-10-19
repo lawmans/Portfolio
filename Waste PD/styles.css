@@ -2,7 +2,7 @@
 :root{
     --Dark--: #222831;
     --Green--:#016A70;
-    --Light--: #B7B7B7;
+    --Light--:#B7B7B7;
 }
 
 body{
@@ -22,32 +22,51 @@ body{
     margin-right: 94.312rem;
 }
 h1{
-    color: var(--Dark--);
+    color: var(--Dark, #222831);
 /* H1 - semibold */
-    font-family:Poppins;
+    font-family: Poppins;
     font-size: 3rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    margin-top: 12.44rem;
-    margin-right: 30rem;
-    margin-left: 69.12rem;
-    margin-bottom: 52.875rem;
+   
 }
-.registration{
-    width: 52.125rem;
-    height: 38.625rem;
-    flex-shrink: 0;
-    justify-content: center;
-    align-items: center;
+
+.email_lab{
+    color: var(--Dark, #222831);
+
+/* H5 - semibold */
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 .email_input{
     width: 45.0625rem;
     height: 3.25rem;
     flex-shrink: 0;
+    border-radius: 0.5rem;
+    border: 2px solid var(--Light, #B7B7B7);
+    background: var(--White, #FFF);
 }
-.password_input{
+
+.pass_lab{
+    color: var(--Dark, #222831);
+/* H5 - semibold */
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.pass_input{
     width: 45.0625rem;
     height: 3.25rem;
     flex-shrink: 0;
+    border-radius: 0.5rem;
+    border: 2px solid var(--Light, #B7B7B7);
+    background: var(--White, #FFF);
+    
+    
 }
