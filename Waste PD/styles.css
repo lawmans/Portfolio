@@ -7,48 +7,43 @@
     --Light--:#B7B7B7;
 }
 
-*{
+body{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
     font-family: 'poppins';
+}
 
-}
-body{
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh; */
-}
 
 .logo{
     width: 9.375rem;
     height: 2.80863rem;
-    flex-shrink: 0;
-    padding: 6.04rem 94.3rem 61rem 4.31rem;
+    /* padding: 6.04rem 94.3rem 61rem 4.31rem; */
 }
 .logintext{
-    padding: 12.44rem 30rem 52.87rem 69.12rem;
+    /* padding: 12.44rem; */
     color: var(--Dark, #222831);
-    font-family:Poppins;
     font-size: 3rem;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
-    width: 8.875rem;
-    height: 4.5rem;
+    text-align:center;
 }
 
+input[type=text]{
+    width: 45rem;
+    display: block;
+    padding: 0.625rem;
+    margin: 0.625rem;
+    box-sizing: border-box;
+    
+
+}
 
 .email_lab{
     color: var(--Dark, #222831);
 
 /* H5 - semibold */
-    font-family: Poppins;
     font-size: 1.25rem;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
+   
 }
 .email_input{
     width: 45.0625rem;
@@ -62,39 +57,42 @@ body{
 .pass_lab{
     color: var(--Dark, #222831);
 /* H5 - semibold */
-    font-family: Poppins;
     font-size: 1.25rem;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
+    
+    
+    
 }
 .pass_input{
     width: 45.0625rem;
     height: 3.25rem;
-    flex-shrink: 0;
     border-radius: 0.5rem;
     border: 2px solid var(--Light, #B7B7B7);
     background: var(--White, #FFF);
+    margin: 3.69r;
 
 }
 .wrapper{
+    display:flex;
     width: 52.125rem;
     height: 38.625rem;
-    flex-shrink: 0;
     border-radius: 1.25rem;
     background: var(--White, #FFF);
     box-shadow: 0px 0px 33px 0px rgba(0, 0, 0, 0.25);
+    padding: 10px 10px 10px 20px;
+    justify-content:right;
+    margin:20px 0;
 }
-.btn{
-    width: 15.6875rem;
-    height: 3.25rem;
-    flex-shrink: 0;
+.btn[type=submit]{
+    width: 251px;
+    height: 52px;
+    display: block;
     border-radius: 0.5rem;
     background: var(--Green, #016A70);
     color: #FFF;
-    font-family: Poppins;
     font-size: 1.25rem;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
-}
+    padding:10px 2;
+    align-items: center;
+    justify-items: center;
+}  
