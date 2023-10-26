@@ -11,12 +11,16 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'poppins';
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .logo{
     width: 9.375rem;
     height: 2.80863rem;
+    padding:6.04rem ;
     /* padding: 6.04rem 94.3rem 61rem 4.31rem; */
 }
 .logintext{
@@ -25,74 +29,88 @@ body{
     font-size: 3rem;
     font-weight: 600;
     text-align:center;
+    margin: 0 1.25rem;
 }
 
 input[type=text]{
-    width: 45rem;
+    width: 721px;
     display: block;
+    border-radius: 0.5rem;
+    padding: 0.625rem;
+    margin: 0.625rem; 
+    border-color: var(--Light--);
+}
+
+input[type=password]{
+    width: 721px;
+    display: block;
+    border-radius: 0.5rem;
     padding: 0.625rem;
     margin: 0.625rem;
-    box-sizing: border-box;
-    
-
-}
-
-.email_lab{
-    color: var(--Dark, #222831);
-
-/* H5 - semibold */
-    font-size: 1.25rem;
-    font-weight: 600;
+    border-color: var(--Light--);
    
 }
-.email_input{
-    width: 45.0625rem;
-    height: 3.25rem;
-    flex-shrink: 0;
-    border-radius: 0.5rem;
-    border: 2px solid var(--Light, #B7B7B7);
-    background: var(--White, #FFF);
-}
 
-.pass_lab{
-    color: var(--Dark, #222831);
-/* H5 - semibold */
-    font-size: 1.25rem;
-    font-weight: 600;
-    
-    
-    
-}
-.pass_input{
-    width: 45.0625rem;
-    height: 3.25rem;
-    border-radius: 0.5rem;
-    border: 2px solid var(--Light, #B7B7B7);
-    background: var(--White, #FFF);
-    margin: 3.69r;
-
-}
 .wrapper{
-    display:flex;
-    width: 52.125rem;
-    height: 38.625rem;
-    border-radius: 1.25rem;
-    background: var(--White, #FFF);
+    width: 834px;
+    height: 618px;
+    top: 300px;
+    left: 760px;
+    padding: 5.3rem;
+    border-radius: 20px;
     box-shadow: 0px 0px 33px 0px rgba(0, 0, 0, 0.25);
-    padding: 10px 10px 10px 20px;
-    justify-content:right;
-    margin:20px 0;
 }
+
 .btn[type=submit]{
-    width: 251px;
-    height: 52px;
+    width: 15.6875rem;
+    height: 3.25rem;;
     display: block;
     border-radius: 0.5rem;
     background: var(--Green, #016A70);
     color: #FFF;
     font-size: 1.25rem;
     font-weight: 600;
-    padding:10px 2;
-    align-items: center;
-    justify-items: center;
-}  
+    margin: 45px 250px;
+    justify-content: center;
+} 
+
+/* .google{
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.facebook{
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em; */
+
+}
+
+
+.facicon{
+   display: block;
+   margin: 0 auto;
+   padding: 0 0 20px;
+
+}
+.Gicon{
+
+}
+a{
+    text-align: right;
+    margin-left: 450PX;
+}
+label[for=email]{
+    font-weight: 600;
+    padding:10px;
+    line-height: normal;
+}
+label[for=password]{
+    font-weight: 600;
+    padding:10px;
+    line-height: normal;
+}
